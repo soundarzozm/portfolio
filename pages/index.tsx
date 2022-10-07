@@ -1,7 +1,12 @@
 import type { NextPage } from 'next'
+import Layout from './components/Layout'
 
-const Home: NextPage = () => {
-	return <h1 className="text-blue-500">Hello World!</h1>
+const App: NextPage = () => {
+	return (
+		<>
+			<Layout />
+		</>
+	)
 }
 
-export default Home
+export default App
