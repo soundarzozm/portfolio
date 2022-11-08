@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.toggle-switch:hover {
+	cursor: pointer;
+}

@@ -1,29 +1,44 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+	darkMode: 'class',
 	content: [
+		'./app/**/*.{js,ts,jsx,tsx}',
 		'./pages/**/*.{js,ts,jsx,tsx}',
 		'./components/**/*.{js,ts,jsx,tsx}',
 	],
 	theme: {
-		fontSize: {
-			bg: '1.75rem',
-			xs: '.75rem',
-			sm: '.875rem',
-			tiny: '.875rem',
-			base: '1rem',
-			lg: '1.125rem',
-			xl: '1.25rem',
-			'2xl': '1.5rem',
-			'3xl': '1.875rem',
-			'4xl': '2.25rem',
-			'5xl': '3rem',
-			'6xl': '4rem',
-			'7xl': '5rem',
-		},
 		extend: {
+			fontFamily: {
+				clubhouse: [
+					'Apercu',
+					'Source Sans Pro',
+					'system',
+					'system-ui',
+					'-apple-system',
+					'linkMacSystemFont',
+					'Roboto',
+					'Helvetica',
+					'Arial',
+					'sans-serif',
+				],
+			},
 			colors: {
-				night: '#151515',
-				dusk: '#202022',
+				'clubhouse-text-color': '#444452',
+				'dark-bg': '#171c28',
+				'dark-text': '#e7e7e7',
+			},
+			keyframes: {
+				wave: {
+					'0%, 70%, 100%': { transform: 'rotate(0.0deg)' },
+					'15%': { transform: 'rotate(14.0deg)' },
+					'30%': { transform: 'rotate(-8.0deg)' },
+					'40%': { transform: 'rotate(14.0deg)' },
+					'50%': { transform: 'rotate(-4.0deg)' },
+					'60%': { transform: 'rotate(10.0deg)' },
+				},
+			},
+			animation: {
+				wave: 'wave 1.5s infinite',
 			},
 		},
 	},
