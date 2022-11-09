@@ -5,3 +5,8 @@
 .toggle-switch:hover {
 	cursor: pointer;
 }
+
+*::selection {
+	background-color: #ffdc00;
+	color: #444452;
+}

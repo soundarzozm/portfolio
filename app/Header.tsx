@@ -3,7 +3,7 @@ export default function Header() {
 		<header className='py-28 px-72'>
 			<h1 className='font-extralight text-5xl tracking-wider'>
 				Hello!
-				<span className='ml-3 hover:animate-wave hover:cursor-pointer text-4xl'>
+				<span className='ml-3 hover:animate-wave duration-200 ease-in-out hover:cursor-pointer text-4xl'>
 					👋🏾
 				</span>
 			</h1>
