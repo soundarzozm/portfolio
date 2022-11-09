@@ -26,6 +26,8 @@ module.exports = {
 				'clubhouse-text-color': '#444452',
 				'dark-bg': '#171c28',
 				'dark-text': '#e7e7e7',
+				'clubhouse-text-color-secondary': '#444452',
+				'dark-text-secondary': '#afafbf',
 			},
 			keyframes: {
 				wave: {
