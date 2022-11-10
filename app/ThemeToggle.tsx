@@ -16,7 +16,7 @@ export default function ThemeToggle() {
 	}
 
 	return (
-		<div className='fixed top-5 right-5 flex justify-center space-x-3 scale-75'>
+		<div className='absolute top-3 right-0 flex justify-center space-x-3 scale-75'>
 			<svg
 				xmlns='http://www.w3.org/2000/svg'
 				enableBackground='new 0 0 24 24'

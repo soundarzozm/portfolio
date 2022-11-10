@@ -1,10 +1,10 @@
 export default function Background() {
 	return (
-		<div className='flex justify-center space-x-20 mt-40'>
+		<div className='md:flex justify-center md:space-x-20 mt-40'>
 			<span className='text-blue-500 font-medium tracking-widest'>
 				BACKGROUND
 			</span>
-			<div className='font-extralight max-w-2xl space-y-8'>
+			<div className='font-extralight md:max-w-2xl mt-7 md:mt-0 space-y-8 ml-12 md:ml-0'>
 				<p>
 					I'm currently an Engineer at Upstatement building things for
 					the web with some awesome people. I recently graduated from

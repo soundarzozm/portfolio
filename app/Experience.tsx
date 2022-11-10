@@ -1,11 +1,11 @@
 export default function Experience() {
 	return (
-		<div className='flex justify-center space-x-20 mt-40'>
+		<div className='md:flex justify-center md:space-x-20 mt-40'>
 			<span className='text-blue-500 font-medium tracking-widest'>
 				EXPERIENCE
 			</span>
-			<ul className='font-extralight max-w-2xl'>
-				<li className='flex justify-between gap-96'>
+			<ul className='font-extralight md:max-w-2xl w-11/12 mt-7 md:mt-0 ml-12 md:ml-0'>
+				<li className='sm:flex justify-between'>
 					<div>
 						<div className='font-medium'>NCR Corporation</div>
 						<div className='text-sm'>Software Engineer - 1</div>
@@ -14,7 +14,7 @@ export default function Experience() {
 						July 2022 - Present
 					</div>
 				</li>
-				<li className='flex justify-between mt-8'>
+				<li className='sm:flex justify-between mt-8'>
 					<div>
 						<div className='font-medium'>Factri.Ai</div>
 						<div className='text-sm'>

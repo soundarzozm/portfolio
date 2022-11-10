@@ -1,19 +1,19 @@
 export default function Header() {
 	return (
-		<header className='py-28 px-72'>
-			<h1 className='font-extralight text-5xl tracking-wider'>
+		<header className='flex flex-col justify-center py-20 sm:px-20 px-10 h-screen'>
+			<h1 className='font-extralight md:text-5xl text-3xl tracking-wider'>
 				Hello!
-				<span className='ml-3 hover:animate-wave duration-200 ease-in-out hover:cursor-pointer text-4xl'>
+				<span className='ml-3 hover:animate-wave duration-200 ease-in-out hover:cursor-pointer text-3xl md:text-4xl'>
 					👋🏾
 				</span>
 			</h1>
-			<h2 className='font-extralight tracking-wider leading-normal text-5xl mt-32 max-w-2xl'>
+			<h2 className='font-extralight tracking-wider md:leading-normal leading-normal md:text-5xl text-3xl mt-32 md:max-w-2xl'>
 				I'm <p className='font-normal inline'>Soundar Murugan</p>, a
 				design-minded front-end software engineer focused on building
 				beautiful interfaces & experiences
 				<span className=' hover:cursor-default'>👨🏾‍💻</span>
 			</h2>
-			<h3 className='mt-32 tracking-wide text-xl font-light'>
+			<h3 className='mt-32 tracking-wide md:text-xl text-lg font-light'>
 				Get in touch<span className='mx-3'>👉🏾</span>
 				<a
 					href='mailto:soundarmurugan91@gmail.com'

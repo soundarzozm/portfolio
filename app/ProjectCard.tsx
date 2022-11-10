@@ -13,15 +13,15 @@ export default function ProjectCard(props: any) {
 			<span className='text-sm text-clubhouse-text-color-secondary dark:text-dark-text-secondary'>
 				{props.description}
 			</span>
-			<div className='mt-5 space-x-2'>
+			<div className='mt-5 md:space-x-2'>
 				{props.tech.map((element: string, idx: number) => {
 					return (
-						<span
+						<div
 							key={idx}
-							className='text-xs font-mono text-blue-500 border-blue-500 border rounded p-2'
+							className='mr-1 mb-1 inline-flex text-xs font-mono text-blue-500 border-blue-500 border rounded p-2'
 						>
 							{element}
-						</span>
+						</div>
 					)
 				})}
 			</div>
