@@ -6,11 +6,10 @@ export default function Background() {
 			</span>
 			<div className='font-extralight md:max-w-2xl mt-7 md:mt-0 space-y-8 ml-12 md:ml-0'>
 				<p>
-					I'm currently an Engineer at Upstatement building things for
-					the web with some awesome people. I recently graduated from
-					Northeastern University after completing three awesome
-					six-month co-ops at MullenLowe U.S., Starry, and Apple
-					Music.
+					I'm currently a <strong>Front End Engineer</strong> at{' '}
+					<strong>NCR Corporation</strong> building a chatbot with
+					some awesome people. I recently graduated from Manipal
+					University.
 				</p>
 				<p>
 					As a software engineer, I enjoy bridging the gap between
@@ -22,8 +21,8 @@ export default function Background() {
 				</p>
 				<p>
 					When I'm not in front of a computer screen, I'm probably
-					snowboarding, cruising around on my penny board, or crossing
-					off another item on my bucket list.
+					sleeping, banging my head to hip-hop, or crossing off
+					another item on my bucket list.
 				</p>
 			</div>
 		</div>
