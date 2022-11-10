@@ -1,4 +1,5 @@
 import ProjectCard from './ProjectCard'
+import { ProjectsData } from '../data/ProjectsData'
 
 export default function Projects() {
 	return (
@@ -7,18 +8,17 @@ export default function Projects() {
 				PROJECTS
 			</span>
 			<div className='font-extralight max-w-2xl space-y-16'>
-				<ProjectCard
-					title='Surf Videos'
-					description='Small React project created during an interview process to browse and search surf videos via the YouTube API.'
-					tech={['JavaScript', 'React', 'Python']}
-					url=''
-				/>
-				<ProjectCard
-					title='Surf Videos'
-					description='Small React project created during an interview process to browse and search surf videos via the YouTube API.'
-					tech={['JavaScript', 'React', 'Python']}
-					url=''
-				/>
+				{ProjectsData.map((element, idx) => {
+					return (
+						<ProjectCard
+							key={idx}
+							title={element.title}
+							description={element.description}
+							tech={element.tech}
+							url={element.url}
+						/>
+					)
+				})}
 			</div>
 		</div>
 	)
