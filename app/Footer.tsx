@@ -2,9 +2,9 @@ export default function Footer() {
 	return (
 		<>
 			<footer className='px-20 py-14 md:flex justify-between items-center'>
-				<div className='text-center font-medium'>
-					<p className=''>Developed with ❤️ by</p>
-					<p className=''>Soundar Murugan 🤘🏾 2022</p>
+				<div className='text-center font-extralight'>
+					<p>Developed with ❤️ by</p>
+					<p>Soundar Murugan 🤘🏾 2022</p>
 				</div>
 				<div className='lg:space-x-8 space-x-2 text-md font-semibold text-blue-500 flex mt-5 md:mt-0 justify-center items-center'>
 					<a
