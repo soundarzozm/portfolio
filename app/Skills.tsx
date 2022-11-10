@@ -4,10 +4,10 @@ export default function Skills() {
 			<span className='text-blue-500 font-medium tracking-widest'>
 				SKILLS
 			</span>
-			<div className='grid grid-cols-2 sm:grid-cols-3 gap-y-10 gap-x-32 ml-12 md:ml-0 mt-7 md:mt-0'>
+			<div className='grid grid-cols-2 sm:grid-cols-3 gap-y-10 sm:gap-x-32 ml-8 md:ml-0 mt-7 md:mt-0'>
 				<div>
 					<span className='font-medium'>LANGUAGES</span>
-					<ul className='font-thin text-sm space-y-1 mt-2'>
+					<ul className='font-extralight text-sm space-y-1 mt-2'>
 						<li>JavaScript (ES6)</li>
 						<li>TypeScript</li>
 						<li>HTML</li>
@@ -19,7 +19,7 @@ export default function Skills() {
 				</div>
 				<div>
 					<span className='font-medium'>FRAMEWORKS</span>
-					<ul className='font-thin text-sm space-y-1 mt-2'>
+					<ul className='font-extralight text-sm space-y-1 mt-2'>
 						<li>NextJS</li>
 						<li>ReactJS</li>
 						<li>Node</li>
@@ -29,7 +29,7 @@ export default function Skills() {
 				</div>
 				<div>
 					<span className='font-medium'>TOOLS</span>
-					<ul className='font-thin text-sm space-y-1 mt-2'>
+					<ul className='font-extralight text-sm space-y-1 mt-2'>
 						<li>Bash</li>
 						<li>Git</li>
 						<li>Chrome DevTools</li>

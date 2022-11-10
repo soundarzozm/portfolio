@@ -4,12 +4,12 @@ export default function Background() {
 			<span className='text-blue-500 font-medium tracking-widest'>
 				BACKGROUND
 			</span>
-			<div className='font-extralight md:max-w-2xl mt-7 md:mt-0 space-y-8 ml-12 md:ml-0'>
+			<div className='font-extralight md:max-w-2xl mt-7 md:mt-0 space-y-8 ml-8 md:ml-0'>
 				<p>
 					I'm currently a <strong>Front End Engineer</strong> at{' '}
 					<strong>NCR Corporation</strong> building a chatbot with
-					some awesome people. I recently graduated from Manipal
-					University.
+					some awesome people. I recently graduated from{' '}
+					<strong>Manipal University</strong>.
 				</p>
 				<p>
 					As a software engineer, I enjoy bridging the gap between
@@ -20,9 +20,9 @@ export default function Background() {
 					pixel-perfect user experiences.
 				</p>
 				<p>
-					When I'm not in front of a computer screen, I'm probably
-					sleeping, banging my head to hip-hop, or crossing off
-					another item on my bucket list.
+					When I'm not in front of a computer screen, I'm probably{' '}
+					<strong>sleeping</strong>, banging my head to{' '}
+					<strong>hip-hop</strong>, or <strong>working out</strong>.
 				</p>
 			</div>
 		</div>

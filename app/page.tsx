@@ -13,7 +13,7 @@ export default function HomePage() {
 		<>
 			<ThemeToggle />
 			<Header />
-			<div className='px-10 md:px-20'>
+			<div className='px-8 md:px-20'>
 				<Background />
 				<Skills />
 				<Experience />
