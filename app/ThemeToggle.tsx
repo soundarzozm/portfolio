@@ -10,7 +10,6 @@ export default function ThemeToggle() {
 	useEffect(() => {
 		setTheme('light')
 	}, [])
-	
 
 	const handleToggle = () => {
 		setTheme(theme === 'light' ? 'dark' : 'light')
