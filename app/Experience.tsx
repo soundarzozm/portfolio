@@ -1,7 +1,7 @@
 export default function Experience() {
 	return (
 		<div className='md:flex justify-center md:space-x-20 mt-40'>
-			<span className='text-blue-500 font-medium tracking-widest'>
+			<span className='text-blue-500 text-right w-32 font-medium tracking-widest'>
 				EXPERIENCE
 			</span>
 			<ul className='font-extralight md:max-w-2xl w-11/12 mt-7 md:mt-0 ml-8 md:ml-0'>

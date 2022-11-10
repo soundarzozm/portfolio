@@ -1,7 +1,7 @@
 export default function Skills() {
 	return (
 		<div className='md:flex justify-center md:space-x-20 mt-40'>
-			<span className='text-blue-500 md:ml-16 font-medium tracking-widest'>
+			<span className='text-blue-500 text-sm md:text-base text-right w-32 font-medium tracking-widest'>
 				SKILLS
 			</span>
 			<div className='grid grid-cols-2 md:w-full md:max-w-2xl sm:grid-cols-3 gap-y-10 sm:gap-x-32 ml-8 md:ml-0 mt-7 md:mt-0'>
