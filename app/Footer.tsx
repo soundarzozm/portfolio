@@ -4,7 +4,16 @@ export default function Footer() {
 			<footer className='px-20 py-14 md:flex justify-between items-center'>
 				<div className='text-center font-extralight'>
 					<p>Developed with ❤️ by</p>
-					<p>Soundar Murugan 🤘🏾 2022</p>
+					<p >Soundar Murugan 🤘🏾 2022</p>
+					<p className='mt-3'>
+						Designed by{' '}
+						<a
+							href='https://brittanychiang.com/'
+							className='font-medium'
+						>
+							Brittany Chiang
+						</a>
+					</p>
 				</div>
 				<div className='lg:space-x-8 space-x-2 text-md font-semibold text-blue-500 flex mt-5 md:mt-0 justify-center items-center'>
 					<a
