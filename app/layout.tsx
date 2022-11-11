@@ -24,7 +24,6 @@ export default function RootLayout({
 					name='author'
 					content='Soundar Murugan'
 				/>
-
 				<link
 					rel='apple-touch-icon'
 					sizes='57x57'
@@ -111,6 +110,7 @@ export default function RootLayout({
 					content='#ffffff'
 				/>
 
+				{/* META TAGS FOR SEO */}
 				<title>Soundar Murugan | Front End Software Developer</title>
 				<meta
 					name='description'
@@ -135,6 +135,26 @@ export default function RootLayout({
 				<meta
 					name='robots'
 					content='all'
+				/>
+				<meta
+					name='keywords'
+					content='soundar, murugan, html, css, javascript, python, java, c++, portfolio, react, nextjs, soundar murugan, website, official'
+				/>
+				<meta
+					name='twitter:site'
+					content='@soundarzozm'
+				/>
+				<meta
+					name='twitter:creator'
+					content='@soundarzozm'
+				/>
+				<meta
+					name='twitter:title'
+					content='Soundar Murugan'
+				/>
+				<meta
+					name='twitter:description'
+					content='Soundar Murugan | Front End Software Developer'
 				/>
 			</head>
 			<body className='font-clubhouse dark:bg-dark-bg text-clubhouse-text-color dark:text-dark-text'>
