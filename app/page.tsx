@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import Header from './Header'
-import ThemeToggle from './ThemeToggle'
+import ThemeToggle from './components/ThemeToggle'
 import Footer from './Footer'
 import Background from './Background'
 import Skills from './Skills'
