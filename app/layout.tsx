@@ -131,6 +131,10 @@ export default function RootLayout({
 					property='og:type'
 					content='website'
 				/>
+				<meta
+					name='robots'
+					content='all'
+				/>
 			</head>
 			<body className='font-clubhouse dark:bg-dark-bg text-clubhouse-text-color dark:text-dark-text'>
 				<NextThemeProvider>{children}</NextThemeProvider>
