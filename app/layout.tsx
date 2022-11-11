@@ -110,7 +110,27 @@ export default function RootLayout({
 					content='#ffffff'
 				/>
 
-				<title>Soundar Murugan | Front End Software Engineer</title>
+				<title>Soundar Murugan | Front End Software Developer</title>
+				<meta
+					name='description'
+					content='Soundar Murugan | Front End Software Developer Official Portfolio Website.'
+				/>
+				<meta
+					property='og:title'
+					content='Soundar Murugan | Front End Software Developer'
+				/>
+				<meta
+					property='og:description'
+					content='Soundar Murugan | Front End Software Developer Official Portfolio Website.'
+				/>
+				<meta
+					property='og:url'
+					content='https://soundarmurugan.com/'
+				/>
+				<meta
+					property='og:type'
+					content='website'
+				/>
 			</head>
 			<body className='font-clubhouse dark:bg-dark-bg text-clubhouse-text-color dark:text-dark-text'>
 				<NextThemeProvider>{children}</NextThemeProvider>
