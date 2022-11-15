@@ -21,6 +21,7 @@ module.exports = {
 					'Arial',
 					'sans-serif',
 				],
+				inter: ['Inter', 'sans-serif'],
 			},
 			colors: {
 				'clubhouse-text-color': '#444452',
