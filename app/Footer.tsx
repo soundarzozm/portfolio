@@ -169,7 +169,9 @@ export default function Footer() {
 									></path>
 								</svg>{' '}
 							</span>
-							<span className='mx-2'>Buy me a coffee</span>
+							<span className='mx-2 text-xs'>
+								Buy me a coffee
+							</span>
 						</div>
 					</a>
 				</div>
