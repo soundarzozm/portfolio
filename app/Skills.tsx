@@ -4,7 +4,7 @@ export default function Skills() {
 			<span className='text-blue-500 text-sm md:text-base text-right w-32 font-medium tracking-widest'>
 				SKILLS
 			</span>
-			<div className='grid grid-cols-2 md:w-full md:max-w-2xl sm:grid-cols-3 gap-y-10 sm:gap-x-32 ml-8 md:ml-0 mt-7 md:mt-0'>
+			<div className='grid grid-cols-1 md:w-full md:max-w-2xl md:grid-cols-3 sm:grid-cols-2 gap-y-10 sm:gap-x-32 ml-8 md:ml-0 mt-7 md:mt-0'>
 				<div>
 					<span className='font-medium'>LANGUAGES</span>
 					<ul className='font-extralight text-sm space-y-1 mt-2'>
