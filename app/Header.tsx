@@ -1,9 +1,9 @@
 export default function Header() {
 	return (
 		<header className='flex flex-col justify-center py-20 sm:px-20 px-10 h-screen'>
-			<h1 className='font-extralight sm:text-3xl text-xl tracking-wider'>
+			<h1 className='font-extralight sm:text-4xl md:text-5xl text-xl tracking-wider'>
 				Hello!
-				<span className='ml-3 hover:animate-wave duration-200 ease-in-out hover:cursor-pointer text-3xl md:text-4xl'>
+				<span className='ml-3 hover:animate-wave duration-200 ease-in-out hover:cursor-pointer md:text-5xl text-xl sm:text-4xl'>
 					👋🏾
 				</span>
 			</h1>
