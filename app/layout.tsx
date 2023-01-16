@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-head-element */
 
-import NextThemeProvider from './components/theme-provider'
 import { AnalyticsWrapper } from './components/analytics'
 
 export default function RootLayout({
@@ -158,7 +157,7 @@ export default function RootLayout({
 				/>
 			</head>
 			<body className='font-clubhouse dark:bg-dark-bg text-clubhouse-text-color dark:text-dark-text'>
-				<NextThemeProvider>{children}</NextThemeProvider>
+				{children}
 				<AnalyticsWrapper />
 			</body>
 		</html>
