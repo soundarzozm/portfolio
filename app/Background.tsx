@@ -6,7 +6,7 @@ export default function Background() {
 			</span>
 			<div className='font-extralight md:max-w-2xl mt-7 md:mt-0 space-y-8 ml-8 md:ml-0'>
 				<p>
-					I'm currently a <strong>Front End Engineer</strong> at{' '}
+					I&apos;m currently a <strong>Front End Engineer</strong> at{' '}
 					<strong>NCR Corporation</strong> building a chatbot with
 					some awesome people. I recently graduated from{' '}
 					<strong>Manipal University</strong>.
@@ -20,8 +20,8 @@ export default function Background() {
 					pixel-perfect user experiences.
 				</p>
 				<p>
-					When I'm not in front of a computer screen, I'm probably{' '}
-					<strong>sleeping</strong>, banging my head to{' '}
+					When I&apos;m not in front of a computer screen, I&apos;m
+					probably <strong>sleeping</strong>, banging my head to{' '}
 					<strong>hip-hop</strong>, or <strong>working out</strong>.
 				</p>
 			</div>
