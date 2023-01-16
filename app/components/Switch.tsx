@@ -3,7 +3,7 @@ const Switch = (props: { darkTheme: null | Boolean; themeToggle: any }) => {
 		<div
 			className={
 				'h-6 w-12 rounded-xl z-10 hover:cursor-pointer transition-all duration-200 ease-in-out ' +
-				(props.darkTheme ? 'bg-green-400' : 'bg-gray-500')
+				(props.darkTheme ? 'bg-lime-300' : 'bg-gray-500')
 			}
 			onClick={props.themeToggle}
 		>
