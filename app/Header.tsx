@@ -1,13 +1,13 @@
 export default function Header() {
 	return (
 		<header className='flex flex-col justify-center py-20 sm:px-20 px-10 h-screen'>
-			<h1 className='font-extralight sm:text-4xl md:text-5xl text-xl tracking-wider'>
+			<h1 className='font-extralight sm:text-4xl md:text-5xl text-head tracking-wider'>
 				Hello!
-				<span className='inline-block ml-3 hover:cursor-pointer md:text-5xl text-xl sm:text-4xl hover:animate-wave hover:duration-200 ease-in-out'>
+				<span className='inline-block ml-3 hover:cursor-pointer md:text-5xl sm:text-4xl hover:animate-wave hover:duration-200 ease-in-out'>
 					👋🏾
 				</span>
 			</h1>
-			<h2 className='font-extralight tracking-wider md:leading-normal leading-normal md:text-5xl sm:text-3xl text-xl mt-32 md:max-w-2xl'>
+			<h2 className='font-extralight tracking-wider md:leading-normal leading-normal md:text-5xl sm:text-3xl text-head mt-32 md:max-w-2xl'>
 				I&apos;m <p className='font-normal inline'>Soundar Murugan</p>,
 				a design-minded front-end software engineer focused on building
 				beautiful interfaces & experiences

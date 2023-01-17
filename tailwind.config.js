@@ -8,6 +8,16 @@ module.exports = {
 	],
 	theme: {
 		extend: {
+			fontSize: {
+				head: [
+					'1.4em',
+					{
+						lineHeight: '2rem',
+						letterSpacing: '-0.01em',
+						fontWeight: '500',
+					},
+				],
+			},
 			fontFamily: {
 				clubhouse: [
 					'Apercu',
