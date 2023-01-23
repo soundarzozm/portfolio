@@ -156,7 +156,7 @@ export default function RootLayout({
 					content='Soundar Murugan | Front End Software Developer'
 				/>
 			</head>
-			<body className='font-clubhouse dark:bg-dark-bg text-clubhouse-text-color dark:text-dark-text'>
+			<body className='font-clubhouse dark:bg-dark-bg text-clubhouse-text-color dark:text-dark-text transition-all duration-300 ease-in-out'>
 				{children}
 				<AnalyticsWrapper />
 			</body>
