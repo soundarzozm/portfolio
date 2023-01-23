@@ -31,7 +31,9 @@ export default function ScrollToTop() {
 	return (
 		<span
 			className={`${
-				isVisible ? 'opacity-100' : 'opacity-0'
+				isVisible
+					? 'opacity-100'
+					: 'hover:cursor-default opacity-0 select-none'
 			} fixed right-4 bottom-6 text-3xl hover:cursor-pointer hover:-translate-y-2 duration-300 ease-in-out`}
 			onClick={scrollToTop}
 		>
