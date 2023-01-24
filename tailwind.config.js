@@ -49,9 +49,14 @@ module.exports = {
 					'50%': { transform: 'rotate(-4.0deg)' },
 					'60%': { transform: 'rotate(10.0deg)' },
 				},
+				fadeIn: {
+					'0%': { opacity: 0.6 },
+					'100%': { opacity: 1 },
+				},
 			},
 			animation: {
 				wave: 'wave 1.5s infinite',
+				fadeIn: 'fadeIn 0.6s cubic-bezier(0.694, 0, 0.335, 1) 0s',
 			},
 		},
 	},
