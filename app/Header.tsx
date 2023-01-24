@@ -1,10 +1,6 @@
 export default function Header() {
 	return (
-		<header
-			className='flex flex-col justify-around sm:px-24 sm:py-28 py-16 px-12 h-screen mx-auto max-w-[1440px] 
-		text-[0.9rem] xxs:text-[1.2rem] xs:text-[1.3rem] sm:text-[1.4rem] md:text-[1.8rem]
-		landscape:text-[0.9rem] landscape:xxs:text-[0.9rem] landscape:xs:text-[1rem] landscape:sm:text-[1.1rem] landscape:md:text-[1.2rem] landscape:lg:text-[1.8rem]'
-		>
+		<header className='flex flex-col justify-around sm:px-24 sm:py-28 py-16 px-12 h-screen mx-auto max-w-[1440px] text-[0.9rem] xxs:text-[1.2rem] xs:text-[1.3rem] sm:text-[1.4rem] md:text-[1.8rem] landscape:text-[0.9rem] landscape:xxs:text-[0.9rem] landscape:xs:text-[1rem] landscape:sm:text-[1.1rem] landscape:md:text-[1.2rem] landscape:lg:text-[1.8rem]'>
 			<h1 className='font-extralight text-head tracking-wider my-2'>
 				Hello!
 				<span className='inline-block ml-3 hover:cursor-pointer hover:animate-wave hover:duration-200 ease-in-out'>
