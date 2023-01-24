@@ -19,7 +19,7 @@ export default function Header() {
 				<span>
 					<a
 						href='mailto:soundarmurugan91@gmail.com'
-						className='pb-1 px-[2px] shadow-[inset_0_-3px_0_0_rgb(76,130,238)] hover:shadow-[inset_0_-38px_0_0_rgb(76,130,238)] hover:text-white transition-all ease-in-out duration-300'
+						className='pb-1 px-[2px] shadow-[inset_0_-3px_0_0_rgb(76,130,238)] hover:shadow-[inset_0_-38px_0_0_rgb(76,130,238)] hover:text-white transition-all ease-out duration-300'
 					>
 						soundarmurugan91@gmail.com
 					</a>
