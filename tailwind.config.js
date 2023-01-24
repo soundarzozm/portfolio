@@ -8,6 +8,10 @@ module.exports = {
 	],
 	theme: {
 		extend: {
+			screens: {
+				xxs: '330px',
+				xs: '360px',
+			},
 			fontSize: {
 				head: [
 					'1.4em',
@@ -43,11 +47,13 @@ module.exports = {
 			keyframes: {
 				wave: {
 					'0%, 70%, 100%': { transform: 'rotate(0.0deg)' },
-					'15%': { transform: 'rotate(14.0deg)' },
-					'30%': { transform: 'rotate(-8.0deg)' },
-					'40%': { transform: 'rotate(14.0deg)' },
-					'50%': { transform: 'rotate(-4.0deg)' },
-					'60%': { transform: 'rotate(10.0deg)' },
+					'15%': {
+						transform: 'rotate(14.0deg) translateX(5px)',
+					},
+					'30%': { transform: 'rotate(-8.0deg) translateX(-5px)' },
+					'40%': { transform: 'rotate(14.0deg) translateX(5px)' },
+					'50%': { transform: 'rotate(-4.0deg) translateX(-3px)' },
+					'60%': { transform: 'rotate(10.0deg) translateX(3px)' },
 				},
 				fadeIn: {
 					'0%': { opacity: 0.6 },
