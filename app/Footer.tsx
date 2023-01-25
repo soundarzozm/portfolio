@@ -3,8 +3,8 @@ export default function Footer() {
 		<>
 			<footer className='px-20 py-14 md:flex justify-between items-center'>
 				<div className='text-center font-extralight'>
-					<p>Developed with ❤️ by</p>
-					<p>Soundar Murugan 🤘🏾 2022</p>
+					{/* <p>Developed with ❤️ by</p>
+					<p>Soundar Murugan 🤘🏾 2022</p> */}
 					<p className='mt-3'>
 						Designed by{' '}
 						<a
