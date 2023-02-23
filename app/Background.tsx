@@ -17,7 +17,7 @@ export default function Background() {
 					with my keen eye for design to create a beautiful product.
 					My goal is to always build applications that are scalable
 					and efficient under the hood while providing engaging,
-					pixel-perfect user experiences.
+					pixel-perfect user experiences. This is for a test commit.
 				</p>
 				<p>
 					When I&apos;m not in front of a computer screen, I&apos;m
