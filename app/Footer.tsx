@@ -35,7 +35,7 @@ export default function Footer() {
 							</svg>
 						</a>
 						<a
-							href='https://twitter.com/percolatedbitch'
+							href='https://twitter.com/zozmdev'
 							className='hover:underline underline-offset-8 decoration-blue-500 decoration-2'
 						>
 							<span className='hidden lg:inline'>TWITTER</span>
