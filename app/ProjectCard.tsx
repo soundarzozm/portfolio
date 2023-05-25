@@ -2,7 +2,7 @@ export default function ProjectCard(props: any) {
 	return (
 		<div>
 			<a
-				className='block font-medium tracking-wide group hover:cursor-pointer mb-3'
+				className='block w-fit font-medium tracking-wide group hover:cursor-pointer mb-3'
 				href={props.url}
 			>
 				<span>{props.title}</span>

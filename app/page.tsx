@@ -15,7 +15,7 @@ export default function HomePage() {
 			<Header />
 			<div className='px-8 md:px-20'>
 				<Background />
-				<Skills />
+				{/* <Skills /> */}
 				<Experience />
 				<Projects />
 			</div>

@@ -10,31 +10,23 @@ export default function Skills() {
 					<ul className='font-extralight text-sm space-y-1 mt-2'>
 						<li>JavaScript (ES6)</li>
 						<li>TypeScript</li>
-						<li>HTML</li>
-						<li>CSS</li>
 						<li>Python</li>
-						<li>SQL</li>
-						<li>R</li>
 					</ul>
 				</div>
 				<div>
 					<span className='font-medium'>FRAMEWORKS</span>
 					<ul className='font-extralight text-sm space-y-1 mt-2'>
-						<li>NextJS</li>
-						<li>ReactJS</li>
-						<li>Node</li>
-						<li>TensorFlow</li>
+						<li>React</li>
+						<li>Next.js</li>
 						<li>TailwindCSS</li>
+						<li>TensorFlow</li>
 					</ul>
 				</div>
 				<div>
 					<span className='font-medium'>TOOLS</span>
 					<ul className='font-extralight text-sm space-y-1 mt-2'>
-						<li>Bash</li>
 						<li>Git</li>
-						<li>Chrome DevTools</li>
-						<li>Postman</li>
-						<li>MongoDB</li>
+						<li>DevTools</li>
 					</ul>
 				</div>
 			</div>

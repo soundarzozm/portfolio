@@ -27,9 +27,9 @@ export default function Experience() {
 						February 2022 - June 2022
 					</div>
 				</li>
-				<li>
+				<li className='mt-24'>
 					<a
-						className='w-auto mt-24 text-xl font-medium content-center flex items-center tracking-wide group hover:cursor-pointer'
+						className='text-xl font-medium content-center items-center tracking-wide group hover:cursor-pointer'
 						href='https://learnermanipal-my.sharepoint.com/:b:/g/personal/soundar_murugan1_learner_manipal_edu/EQRzsMjK1uNOn-3DAPDGttwBl6XTi4aP-1PuA-4c5uz6JA?e=8VrIba'
 					>
 						<span>View my resume</span>
