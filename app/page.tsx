@@ -17,7 +17,7 @@ export default function HomePage() {
 				<Background />
 				{/* <Skills /> */}
 				<Experience />
-				<Projects />
+				{/* <Projects /> */}
 			</div>
 			<Footer />
 			<ScrollToTop />
